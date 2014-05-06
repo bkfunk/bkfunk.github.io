@@ -8,7 +8,7 @@
   description: Exploration and analysis of Wikipedia page rating data, including visualizations.
   data: Ratings data from Wikimedia pilot + data on Wikipedia edits accessed via API
   built_using: Python, Pandas, iPython Notebook, MediaWiki API
-  repo: wiki
+  repo: rating_wiki
     
 - title: Adjunct Salaries
   description: Exploration and analysis of pay and benefits for adjunct faculty.
