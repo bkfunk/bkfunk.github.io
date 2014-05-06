@@ -158,3 +158,37 @@ a:visited { color: #a0a; }
 .post pre.terminal code {
   background-color: #333;
 }
+
+
+
+/*****************************************************************************/
+/*
+/* Custom
+/*
+/*****************************************************************************/
+
+li.project-listing {
+  margin-bottom: 2em;
+}
+li.project-listing h2 {
+  font-size: 1.25em;
+  margin: 0;
+}
+li.project-listing h2 a {
+  font-weight: normal;
+}
+li.project-listing p {
+  font-size: .8em;
+  margin: 0px;
+}
+li.project-listing a {
+  font-weight: bold;
+}
+li.project-listing .description {
+  font-size: 1em;
+  margin-bottom: .5em;
+}
+
+li.project-listing em {
+  font-weight: bold;
+}
