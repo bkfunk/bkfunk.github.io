@@ -1,0 +1,18 @@
+---
+layout: default
+title: Brian Karfunkel - Data Projects
+---
+
+<div id="home">
+  <h1>Data Projects</h1>
+  <ul class="projects-list">
+    {% for project in site.data.projects %}
+      <li class="project-listing">
+        <h2 class="title"><a href="http://bkfunk.github.io/{{ project.repo }}">{{ project.title }}</a></h2>
+        <p class="description">{{ project.description }}</p>
+        <p class="built_using"><em>Built using: </em>{{ project.built_using }}</p>
+        <p class="github"><em>Github repo: </em><a href='https://github.com/bkfunk/{{ project.repo }}'>{{ project.repo }}</a></p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

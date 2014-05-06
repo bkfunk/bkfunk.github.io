@@ -1,0 +1,17 @@
+- title: SF Data Traction
+  description: A combination scatter-plot/choropleth to visualize crime and other data for San Francisco. View the resulting visualization <a href='http://bkfunk.github.io/sf_data_traction/crimestats.html'>here</a>.
+  data: SFPD incident reports + US Census tract-level data
+  built_using: Python, Pandas, d3.js
+  repo: sf_data_traction
+    
+- title: Rating Wikipedia
+  description: Exploration and analysis of Wikipedia page rating data, including visualizations.
+  data: Ratings data from Wikimedia pilot + data on Wikipedia edits accessed via API
+  built_using: Python, Pandas, iPython Notebook, MediaWiki API
+  repo: wiki
+    
+- title: Adjunct Salaries
+  description: Exploration and analysis of pay and benefits for adjunct faculty.
+  data: Adjunct pay survey from the Adjunct Project at the Chronicle of Higher Education + IPEDS data from US Dept. of Education
+  built_using: Python, Pandas, iPython Notebook
+  repo: adjuncts
